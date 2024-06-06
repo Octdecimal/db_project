@@ -81,7 +81,8 @@ if ($result_tr->num_rows > 0) {
 <body>
     <header>
         <h1><?php echo $location['location_name']; ?></h1>
-        <button onclick="window.location.href='index.php'">首頁</button>
+        <button onclick="window.location.href='results.php'">返回列表</button>
+        <button onclick="window.location.href='index.php'">返回首頁</button>
     </header>
     <main>
         <p><strong>地址:</strong> <?php echo $location['address']; ?></p>
