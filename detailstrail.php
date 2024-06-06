@@ -92,7 +92,6 @@ if ($result_condition->num_rows > 0) {
         <button onclick="window.location.href='index.php'">首頁</button>
     </header>
     <main>
-        <p><strong>ID:</strong> <?php echo $trail['TRAILID']; ?></p>
         <p><strong>縣市、鄉鎮市區:</strong> <?php echo $city['City']; ?><?php echo $district['District']; ?></p>
         <p><strong>步道長度:</strong> <?php echo $trail['TR_LENGTH']; ?></p>
         <p><strong>海拔高度:</strong> <?php echo $trail['TR_ALT']; ?> ~ <?php echo $trail['TR_ALT_LOW']; ?>(公尺)</p>

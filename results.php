@@ -56,7 +56,7 @@ if ($conn->error) {
             if ($result_trail->num_rows > 0) {
                 while ($trail_row = $result_trail->fetch_assoc()) {
                     echo "<li>";
-                    echo "<a href='detailstrail.php?id={$trail_row['TRAILID']}'> ({$trail_row['TR_CNAME']})</a>";
+                    echo "<a href='detailstrail.php?id={$trail_row['TRAILID']}'> {$trail_row['TR_CNAME']}</a>";
                     echo "</li>";
                 }
             }
