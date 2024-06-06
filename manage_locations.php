@@ -72,7 +72,8 @@ $message = $_GET['message'] ?? '';
                             <td>
                                 <input type="hidden" name="id" value="<?= $row['id'] ?>">
                                 <button type="submit" name="update">更新</button>
-                                <button type="submit" name="delete">刪除</button>
+                                <button type="submit" name="delete" onclick="return confirm('確定要刪除這個紀錄嗎?')">刪除</button>
+
                             </td>
                             <td><?= $row['id'] ?></td>
                             <td><input type="text" name="location_name" value="<?= htmlspecialchars($row['location_name']) ?>"></td>

@@ -70,7 +70,8 @@ $message = $_GET['message'] ?? '';
                             <td>
                                 <input type="hidden" name="TRAILID" value="<?= $row['TRAILID'] ?>">
                                 <button type="submit" name="update">更新</button>
-                                <button type="submit" name="delete">刪除</button>
+                                <button type="submit" name="delete" onclick="return confirm('確定要刪除這個紀錄嗎?')">刪除</button>
+
                             </td>
                             <td><?= $row['TRAILID'] ?></td>
                             <td><input type="text" name="TR_CNAME" value="<?= htmlspecialchars($row['TR_CNAME']) ?>"></td>
