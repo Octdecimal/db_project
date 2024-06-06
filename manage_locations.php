@@ -30,10 +30,10 @@ $message = $_GET['message'] ?? '';
     <nav>
         <ul>
         <li><a href="admin.php">首頁</a></li>
-        <li><a href="manage_trails.php">Manage Trails</a></li>
-        <li><a href="manage_locations.php">Manage Locations</a></li>
-        <li><a href="manage_users.php">Manage Users</a></li>
-       
+        <li><a href="manage_locations.php">管理景點</a></li>
+        <li><a href="manage_trails.php">管理步道</a></li>
+        <li><a href="manage_users.php">管理使用者</a></li>
+        <li><a href="manage_departments.php">管理部門</a></li>
         <!-- 你可以在这里添加更多的管理页面链接 -->
     </ul>
     </nav>

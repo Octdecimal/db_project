@@ -1,10 +1,10 @@
 <?php
 include 'db.php';
 
-$id = $_GET['TRAILID'];
+$id = $_GET['id'];
 
 // 查詢 trail 表中的指定數據
-$sql = "SELECT * FROM trail";
+$sql = "SELECT * FROM trail WHERE TRAILID = '$id'";
 $result = $conn->query($sql);
 
 // 檢查是否有查到結果

@@ -14,7 +14,7 @@ if ($conn->error) {
 }
 
 // 查詢 tr_info 和 trail 表
-$sql_trail = "SELECT trail.TR_CNAME 
+$sql_trail = "SELECT * 
               FROM trail 
               WHERE trail.TR_CNAME LIKE '%$search_term%'";
 $result_trail = $conn->query($sql_trail);
