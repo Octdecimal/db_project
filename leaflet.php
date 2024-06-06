@@ -54,12 +54,11 @@
     <h1>步道地圖</h1>
     <nav>
         <ul>
-        <li><a href="admin.php">首頁</a></li>
-        <li><a href="manage_trails.php">Manage Trails</a></li>
-        <li><a href="manage_locations.php">Manage Locations</a></li>
-        <li><a href="manage_users.php">Manage Users</a></li>
-        <li><a href="manage_departments.php">Manage Departments (假連結)</a></li>
-        <!-- 你可以在这里添加更多的管理页面链接 -->
+        <li><a href="index.php">首頁</a></li>
+        <li><a href="leaflet.php">步道地圖</a></li>
+        <li><a href="news.php">最新消息</a></li>
+        <li><a href="weather.php">天氣預報</a></li>
+        <li><a href="login.php">會員登入</a></li><!-- 你可以在这里添加更多的管理页面链接 -->
     </ul>
     </nav>
 </header>

@@ -17,6 +17,7 @@
     <h1>Admin Dashboard</h1>
     <nav>
         <ul>
+        <li><a href="index.php">首頁</a></li>
         <li><a href="manage_locations.php">管理景點</a></li>
         <li><a href="manage_users.php">管理使用者</a></li>
         <li><a href="manage_trails.php">管理步道</a></li>
