@@ -21,7 +21,7 @@ $conn->close();
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
-        #map { height: 600px; margin-top: 20px; }
+        #map { height: 600px; }
         #info { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
     </style>
 </head>
@@ -31,10 +31,12 @@ $conn->close();
         <nav>
             <ul>
                 <li><a href="index.php">首頁</a></li>
+                <li><a href="trails.php">不步道</a></li>
                 <li><a href="leaflet.php">步道地圖</a></li>
                 <li><a href="news.php">最新消息</a></li>
                 <li><a href="weather.php">天氣預報</a></li>
                 <li><a href="login.php">會員登入</a></li>
+                
                 <li>
                     <form method="GET" action="results.php">
                         <input type="text" id="search" name="search" placeholder="輸入景點名稱或描述">
