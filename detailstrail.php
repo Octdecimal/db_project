@@ -89,7 +89,8 @@ if ($result_condition->num_rows > 0) {
 <body>
     <header>
         <h1><?php echo $trail['TR_CNAME']; ?></h1>
-        <button onclick="window.location.href='index.php'">首頁</button>
+        <button onclick="window.location.href='results.php'">返回列表</button>
+        <button onclick="window.location.href='index.php'">返回首頁</button>
     </header>
     <main>
         <p><strong>縣市、鄉鎮市區:</strong> <?php echo $city['City']; ?><?php echo $district['District']; ?></p>
